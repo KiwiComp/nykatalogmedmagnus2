@@ -2,8 +2,9 @@ public class Product {
     private String name;
     private double price;
 
-    public Product(String plupp) {
+    public Product(String plupp, double price) {
         this.name = plupp;
+        this.price = price;
     }
 
     public String getName() {
