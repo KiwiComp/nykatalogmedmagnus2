@@ -6,7 +6,8 @@ public class Catalogue {
 
     public Catalogue() {
 
-        Product tomato = new Product("gelate", 2);
+
+      Product tomato = new Product("tomato", 12.5, "fruit");
     }
 
     public void addProduct() {
