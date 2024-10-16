@@ -1,9 +1,9 @@
 public class Product {
-    private String name;
+  /*  private String name;
     private double price;
 
-    public Product(String name) {
-        this.name = name;
+    public Product(String plupp) {
+        this.name = plupp;
     }
 
     public String getName() {
@@ -20,5 +20,5 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
-    }
+    }*/
 }
