@@ -1,14 +1,13 @@
 public class Product {
     private String title;
-    private double price;
-private boolean isGood;
+    private double price
     private String type;
 
-    public Product(String title, double price, String type, boolean isGood) {
+    public Product(String title, double price, String type) {
         this.title = title;
         this.price = price;
         this.type = type;
-        this.isGood = isGood;
+     
 
     }
 
@@ -21,7 +20,7 @@ private boolean isGood;
     }
 
     public double getPrice() {
-        return price;
+        return price*55;
     }
 
     public boolean isGood() {
