@@ -1,9 +1,12 @@
 public class Product {
-  /*  private String name;
+    private String name;
     private double price;
+    private String type;
 
-    public Product(String plupp) {
-        this.name = plupp;
+    public Product(String name, double price, String type) {
+        this.name = name;
+        this.price = price;
+        this.type = type;
     }
 
     public String getName() {
@@ -20,13 +23,12 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return "Product" +
+                "\nName: " + name +
+                "\nPrice: " + price;
     }
 
     public void setPrice(double price) {
         this.price = price;
-    }*/
+    }
 }
