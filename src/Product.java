@@ -1,13 +1,14 @@
 public class Product {
     private String name;
     private double price;
-
+private String temple;
     private String type;
 
-    public Product(String name, double price, String type) {
+    public Product(String name, double price, String type, String temple) {
         this.name = name;
         this.price = price;
         this.type = type;
+        this.temple = temple;
 
     }
 
@@ -20,7 +21,7 @@ public class Product {
     }
 
     public double getPrice() {
-        return price;
+        return price*55;
     }
 
     @Override
