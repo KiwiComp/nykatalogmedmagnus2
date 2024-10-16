@@ -1,5 +1,5 @@
 public class Product {
-    private String name;
+  /*  private String name;
     private double price;
 
     public Product(String plupp) {
@@ -20,5 +20,5 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
-    }
+    }*/
 }
